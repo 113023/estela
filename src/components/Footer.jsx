@@ -1,5 +1,6 @@
 import Container from "./Container";
 import BRAND from "../constants/brand";
+import MapEmbed from "./MapEmbed"; // <-- ajoute ça
 import { Coffee } from "lucide-react";
 
 export default function Footer() {
@@ -35,6 +36,27 @@ export default function Footer() {
               <li>Email: bonjour@raslatasse.cafe</li>
               <li>Tél: 06 00 00 00 00</li>
             </ul>
+          </div>
+        </div>
+
+        {/* Carte (span pleine largeur sous les infos) */}
+        <div className="pb-8">
+          <MapEmbed query="Ras La Tasse, 12 Rue Exemple, 75000 Paris" height={280} />
+          <div className="mt-3 flex gap-3 text-sm">
+            <a
+              href={`https://www.google.com/maps/dir/?api=1&destination=${encodeURIComponent("Ras La Tasse, 12 Rue Exemple, 75000 Paris")}`}
+              target="_blank" rel="noreferrer"
+              className="inline-flex items-center rounded-xl px-3 py-2 border border-black/10 hover:bg-black/5"
+            >
+              Ouvrir dans Google Maps
+            </a>
+            <a
+              href={`https://maps.apple.com/?q=${encodeURIComponent("Ras La Tasse, 12 Rue Exemple, 75000 Paris")}`}
+              target="_blank" rel="noreferrer"
+              className="inline-flex items-center rounded-xl px-3 py-2 border border-black/10 hover:bg-black/5"
+            >
+              Ouvrir dans Apple Plans
+            </a>
           </div>
         </div>
 

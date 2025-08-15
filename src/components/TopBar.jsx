@@ -20,8 +20,8 @@ export default function TopBar() {
             </a>
             <div className="hidden md:flex items-center gap-7 text-sm">
               <a href="#work" className="opacity-80 hover:opacity-100">Travailler</a>
-              <a href="#opinions" className="opacity-80 hover:opacity-100">Avis</a>
               <a href="#insta" className="opacity-80 hover:opacity-100">Instagram</a>
+              <a href="#opinions" className="opacity-80 hover:opacity-100">Avis</a>
               <a href="#contact" className="opacity-80 hover:opacity-100">Contact</a>
               <a href="#menu" className="inline-flex items-center rounded-xl px-4 py-2 bg-black text-white hover:opacity-90">Menu</a>
             </div>

@@ -2,7 +2,7 @@ import TopBar from "../components/TopBar";
 import Hero from "../components/Hero";
 import WorkSection from "../components/WorkSection";
 import MenuSection from "../components/MenuSection";
-import InstaVisualizer from "../components/InstaVisualizer";
+import WhereToFindUs from "../components/WhereToFindUs";
 import Opinion from "../components/Opinion";
 import Footer from "../components/Footer";
 import BRAND from "../constants/brand";
@@ -36,7 +36,7 @@ export default function LandingPage() {
       <Hero />
       <WorkSection />
       <MenuSection />
-      <InstaVisualizer username={BRAND.ig} profileUrl={BRAND.igUrl} />
+      <WhereToFindUs />
       <Opinion reviews = {avis}/>
       <Footer />
     </div>

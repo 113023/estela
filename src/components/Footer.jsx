@@ -1,6 +1,5 @@
 import Container from "./Container";
 import BRAND from "../constants/brand";
-import MapEmbed from "./MapEmbed"; // <-- ajoute ça
 import { Coffee } from "lucide-react";
 
 export default function Footer() {
@@ -33,33 +32,11 @@ export default function Footer() {
             <h4 className="font-semibold mb-2">Contact</h4>
             <ul className="space-y-1 text-black/70">
               <li>Instagram: <a className="underline" href={BRAND.igUrl} target="_blank" rel="noreferrer">{BRAND.ig}</a></li>
-              <li>Email: bonjour@raslatasse.cafe</li>
-              <li>Tél: 06 00 00 00 00</li>
+              <li>Email: {BRAND.email}</li>
+              <li>Tél: {BRAND.phone}</li>
             </ul>
           </div>
         </div>
-
-        {/* Carte (span pleine largeur sous les infos) */}
-        <div className="pb-8">
-          <MapEmbed query="Ras la Tasse, 3 Rue du Puits Vert, 31000 Toulouse, France" height={280} />
-          <div className="mt-3 flex gap-3 text-sm">
-            <a
-              href={`https://www.google.com/maps/dir/?api=1&destination=${encodeURIComponent("Ras la Tasse, 3 Rue du Puits Vert, 31000 Toulouse, France")}`}
-              target="_blank" rel="noreferrer"
-              className="inline-flex items-center rounded-xl px-3 py-2 border border-black/10 hover:bg-black/5"
-            >
-              Ouvrir dans Google Maps
-            </a>
-            <a
-              href={`https://maps.apple.com/?q=${encodeURIComponent("Ras la Tasse, 3 Rue du Puits Vert, 31000 Toulouse, France")}`}
-              target="_blank" rel="noreferrer"
-              className="inline-flex items-center rounded-xl px-3 py-2 border border-black/10 hover:bg-black/5"
-            >
-              Ouvrir dans Apple Plans
-            </a>
-          </div>
-        </div>
-
         <div className="pb-8 -mt-2 text-xs text-black/60 flex items-center justify-between">
           <span>© {new Date().getFullYear()} {BRAND.name}. Tous droits réservés.</span>
           <a href="#home" className="underline">Haut de page</a>

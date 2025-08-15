@@ -76,7 +76,7 @@ export default function Hero() {
             <div className="relative">
               <div className="absolute -inset-4 -z-10 rounded-[2rem] bg-gradient-to-br from-[#CDECE3] via-white to-[#E9D5FA] blur-2xl opacity-70" />
               <img
-                src="/ras/get.jpg"
+                src="get.jpg"
                 alt="Intérieur du coffee shop"
                 className="w-full h-auto rounded-[2rem] shadow-2xl ring-1 ring-black/5 object-cover"
                 loading="eager"

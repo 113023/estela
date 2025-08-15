@@ -43,10 +43,6 @@ export default function InstaVisualizer({ username, profileUrl }) {
             </a>
           ))}
         </div>
-
-        <div className="mt-6 rounded-2xl border border-dashed border-black/10 p-4 text-sm text-black/70">
-          Intégrer un flux réel via SnapWidget/LightWidget ou l'API Meta (token requis). Ce composant accepte des URLs d'images réelles.
-        </div>
       </Container>
     </section>
   );

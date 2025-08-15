@@ -3,7 +3,6 @@ import Hero from "../components/Hero";
 import WorkSection from "../components/WorkSection";
 import MenuSection from "../components/MenuSection";
 import InstaVisualizer from "../components/InstaVisualizer";
-import ReserveCTA from "../components/ReserveCTA";
 import Opinion from "../components/Opinion";
 import Footer from "../components/Footer";
 import BRAND from "../constants/brand";

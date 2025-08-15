@@ -1,14 +1,14 @@
 import Container from "./Container";
 import FeatureCard from "./FeatureCard";
-import { Laptop, Wifi, GraduationCap, Users, Leaf } from "lucide-react";
+import { Laptop, Wifi, GraduationCap, Users, Leaf} from "lucide-react";
 import BRAND from "../constants/brand";
 
 export default function WorkSection() {
   const features = [
-    { icon: <Laptop className="h-5 w-5" />, title: "Tables équipées", desc: "Prises, USB-C et assises confort pour rester focus longtemps." },
-    { icon: <Wifi className="h-5 w-5" />, title: "Wi-Fi fibre", desc: "Stable pour visios, livraisons et sessions de code." },
-    { icon: <GraduationCap className="h-5 w-5" />, title: "Étudiants bienvenus", desc: "Réductions en semaine sur boissons non alcoolisées." },
-    { icon: <Users className="h-5 w-5" />, title: "Espaces groupe", desc: "Banquettes et grandes tablées pour révisions et co-working." },
+    { icon: <Laptop className="h-5 w-5" />, title: "Tables équipées", desc: "Prises et assises confort pour rester focus longtemps." },
+    { icon: <Wifi className="h-5 w-5" />, title: "Wi-Fi libre accès", desc: "Stable pour tout types d'activités." },
+    { icon: <GraduationCap className="h-5 w-5" />, title: "Étudiants bienvenus", desc: "Espace de travail adapté" },
+    { icon: <Users className="h-5 w-5" />, title: "Service à table", desc: "Restez concentré pendant qu'on vous sert" },
   ];
 
   return (

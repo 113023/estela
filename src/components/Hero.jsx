@@ -1,7 +1,7 @@
 import Container from "./Container";
 import BRAND from "../constants/brand";
 import { Wifi, Clock, MapPin, Instagram } from "lucide-react";
-
+ 
 export default function Hero() {
   return (
     <header id="home" className="relative overflow-hidden">
@@ -14,7 +14,7 @@ export default function Hero() {
         className="absolute -bottom-40 -left-32 h-[28rem] w-[28rem] rounded-full blur-3xl opacity-40"
         style={{ background: "radial-gradient(closest-side, #E9D5FA, transparent)" }}
       />
-
+ 
       <Container>
         <div className="grid lg:grid-cols-12 gap-10 items-center py-12 sm:py-16">
           {/* Colonne texte */}
@@ -36,7 +36,7 @@ export default function Hero() {
               Tables spacieuses, banquettes confort et boissons de spécialité. Ouvert à tous : étudiants,
               freelances, télétravailleurs.
             </p>
-
+ 
             <div className="flex flex-wrap justify-center lg:justify-start gap-3">
               <a
                 href="#menu"
@@ -51,26 +51,22 @@ export default function Hero() {
                 Voir les avis
               </a>
             </div>
-
+ 
             <div className="flex flex-wrap justify-center lg:justify-start gap-6 pt-2 text-sm text-black/70">
               <div className="inline-flex items-center gap-2">
-                <Clock className="h-4 w-4" />8h–19h
+                <Clock className="h-4 w-4" />9h–19h
               </div>
               <div className="inline-flex items-center gap-2">
-                <MapPin className="h-4 w-4" />Centre-ville
+                <MapPin className="h-4 w-4" />Métro Esquirol
               </div>
-              <a
-                className="inline-flex items-center gap-2 underline"
-                href={BRAND.igUrl}
-                target="_blank"
-                rel="noreferrer"
-              >
-                <Instagram className="h-4 w-4" />
-                {BRAND.ig}
+              <a href={BRAND.igUrl} target="_blank" rel="noreferrer"
+                className="inline-flex items-center gap-2 rounded-xl border border-black/10 px-4 py-2 text-sm hover:bg-black/5">
+                <Instagram className="h-4 w-4"/>
+                Ouvrir le profil
               </a>
             </div>
           </div>
-
+ 
           {/* Colonne image */}
           <div className="lg:col-span-6">
             <div className="relative">

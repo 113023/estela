@@ -22,8 +22,9 @@ export default function Footer() {
           <div className="text-sm">
             <h4 className="font-semibold mb-2">Infos</h4>
             <ul className="space-y-1 text-black/70">
-              <li>8h–19h • 7j/7</li>
-              <li>Centre-ville • Tram Hôtel de Ville</li>
+              <li>Lun – Sam : 9h – 19h</li>
+              <li>Dimanche : 12h – 19h</li>
+              <li>Centre-ville • 1 minute métro Esquirol</li>
               <li>Wi-Fi haut débit • Prises à chaque table</li>
             </ul>
           </div>
@@ -31,7 +32,12 @@ export default function Footer() {
           <div className="text-sm">
             <h4 className="font-semibold mb-2">Contact</h4>
             <ul className="space-y-1 text-black/70">
-              <li>Instagram: <a className="underline" href={BRAND.igUrl} target="_blank" rel="noreferrer">{BRAND.ig}</a></li>
+              <li>
+                Instagram:{" "}
+                <a className="underline" href={BRAND.igUrl} target="_blank" rel="noreferrer">
+                  {BRAND.ig}
+                </a>
+              </li>
               <li>Email: {BRAND.email}</li>
               <li>Tél: {BRAND.phone}</li>
             </ul>

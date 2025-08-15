@@ -3,7 +3,7 @@ import Container from "./Container";
 export default function MenuSection() {
   const cards = [
     { title: "Café de spécialité", img: "https://images.unsplash.com/photo-1504754524776-8f4f37790ca0?q=80&w=1600&auto=format&fit=crop", points: ["Espresso, Flat White, V60", "Laits végétaux", "Torréfaction locale"] },
-    { title: "Brunch & crêpes", img: "https://images.unsplash.com/photo-1550317138-10000687a72b?q=80&w=1600&auto=format&fit=crop", points: ["Sucré & salé maison", "Options veggie", "Service continu"] },
+    { title: "Patisserie", img: "/ras/cookie.jpg", points: ["Cookie", "Donuts", "Muffins"] },
     { title: "Snacks & thés", img: "https://images.unsplash.com/photo-1541599188778-cdc73298e8f8?q=80&w=1600&auto=format&fit=crop", points: ["Thés, chai latte", "Cookies, banana bread", "Sirops artisanaux"] },
   ];
 

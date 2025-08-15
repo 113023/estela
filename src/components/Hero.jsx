@@ -39,16 +39,16 @@ export default function Hero() {
 
             <div className="flex flex-wrap justify-center lg:justify-start gap-3">
               <a
-                href="#reserve"
+                href="#menu"
                 className="inline-flex items-center justify-center rounded-xl px-5 py-3 bg-black text-white text-sm md:text-base"
               >
-                Réserver
+                Menu
               </a>
               <a
-                href="#work"
+                href="#opinions"
                 className="inline-flex items-center justify-center rounded-xl px-5 py-3 border border-black/10 text-sm md:text-base"
               >
-                Voir les espaces
+                Voir les avis
               </a>
             </div>
 

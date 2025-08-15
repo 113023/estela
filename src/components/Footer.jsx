@@ -41,17 +41,17 @@ export default function Footer() {
 
         {/* Carte (span pleine largeur sous les infos) */}
         <div className="pb-8">
-          <MapEmbed query="Ras La Tasse, 12 Rue Exemple, 75000 Paris" height={280} />
+          <MapEmbed query="Ras la Tasse, 3 Rue du Puits Vert, 31000 Toulouse, France" height={280} />
           <div className="mt-3 flex gap-3 text-sm">
             <a
-              href={`https://www.google.com/maps/dir/?api=1&destination=${encodeURIComponent("Ras La Tasse, 12 Rue Exemple, 75000 Paris")}`}
+              href={`https://www.google.com/maps/dir/?api=1&destination=${encodeURIComponent("Ras la Tasse, 3 Rue du Puits Vert, 31000 Toulouse, France")}`}
               target="_blank" rel="noreferrer"
               className="inline-flex items-center rounded-xl px-3 py-2 border border-black/10 hover:bg-black/5"
             >
               Ouvrir dans Google Maps
             </a>
             <a
-              href={`https://maps.apple.com/?q=${encodeURIComponent("Ras La Tasse, 12 Rue Exemple, 75000 Paris")}`}
+              href={`https://maps.apple.com/?q=${encodeURIComponent("Ras la Tasse, 3 Rue du Puits Vert, 31000 Toulouse, France")}`}
               target="_blank" rel="noreferrer"
               className="inline-flex items-center rounded-xl px-3 py-2 border border-black/10 hover:bg-black/5"
             >

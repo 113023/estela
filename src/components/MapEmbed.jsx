@@ -1,5 +1,5 @@
 export default function MapEmbed({
-    query = "Ras La Tasse, Centre-ville", // remplace par ton adresse précise
+    query = "Ras la Tasse, 3 Rue du Puits Vert, 31000 Toulouse, France", // remplace par ton adresse précise
     height = 260,
   }) {
     const src = `https://www.google.com/maps?q=${encodeURIComponent(query)}&output=embed`;

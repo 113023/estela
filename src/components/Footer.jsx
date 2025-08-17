@@ -1,6 +1,6 @@
 import Container from "./Container";
 import BRAND from "../constants/brand";
-import { Coffee } from "lucide-react";
+import { Leaf } from "lucide-react";
 
 export default function Footer() {
   return (
@@ -10,23 +10,13 @@ export default function Footer() {
           <div>
             <div className="flex items-center gap-2">
               <div className="h-9 w-9 rounded-2xl bg-gradient-to-tr from-[#CDECE3] to-[#E9D5FA] grid place-items-center shadow-sm">
-                <Coffee className="h-5 w-5" />
+                <Leaf className="h-5 w-5" />
               </div>
               <span className="font-semibold tracking-tight">{BRAND.name}</span>
             </div>
             <p className="text-black/70 text-sm mt-3 max-w-sm">
-              Café de quartier et lieu de concentration. Accessible à tous, propice à la créativité.
+              Maison holistique — beauté & bien-être : soins visage, massages, épilation au fil & regard.
             </p>
-          </div>
-
-          <div className="text-sm">
-            <h4 className="font-semibold mb-2">Infos</h4>
-            <ul className="space-y-1 text-black/70">
-              <li>Lun – Sam : 9h – 19h</li>
-              <li>Dimanche : 12h – 19h</li>
-              <li>Centre-ville • 1 minute métro Esquirol</li>
-              <li>Wi-Fi haut débit • Prises à chaque table</li>
-            </ul>
           </div>
 
           <div className="text-sm">
@@ -38,11 +28,21 @@ export default function Footer() {
                   {BRAND.ig}
                 </a>
               </li>
-              <li>Email: {BRAND.email}</li>
               <li>Tél: {BRAND.phone}</li>
+              <li className="mt-2">Adresse : {BRAND.address}</li>
+            </ul>
+          </div>
+
+          <div className="text-sm md:text-right">
+            <h4 className="font-semibold mb-2">Infos</h4>
+            <ul className="space-y-1 text-black/70">
+              <li>Lun &amp; Sam : 10:00 – 16:30</li>
+              <li>Mar, Jeu &amp; Ven : 10:00 – 18:30</li>
+              <li>Fermé : Mer &amp; Dim</li>
             </ul>
           </div>
         </div>
+
         <div className="pb-8 -mt-2 text-xs text-black/60 flex items-center justify-between">
           <span>© {new Date().getFullYear()} {BRAND.name}. Tous droits réservés.</span>
           <a href="#home" className="underline">Haut de page</a>

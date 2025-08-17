@@ -1,7 +1,7 @@
 const BRAND = {
-  name: "Ras La Tasse",
-  ig: "@raslatasseoff",
-  igUrl: "https://www.instagram.com/raslatasseoff/",
+  name: "Estëla Maison Holistique",
+  ig: "@estela.maisonholistique",
+  igUrl: "https://www.instagram.com/estela.maisonholistique/",
   colors: {
     bg: "#F5EFE7",
     ink: "#1F2937",
@@ -10,8 +10,8 @@ const BRAND = {
     card: "#FFFFFF",
   },
   email: "contact@raslatasse.fr",
-  phone: "+33 5 61 38 12 65",
-  address: "3 rue du Puits Vert, Toulouse, France"
+  phone: "+33 6 84 45 78 20",
+  address: "12 Rue Principale, 31120 Portet-sur-Garonne, France"
 };
 
 export default BRAND;

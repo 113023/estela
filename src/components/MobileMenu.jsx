@@ -7,7 +7,7 @@ export default function MobileMenu() {
   const [open, setOpen] = useState(false);
 
   useEffect(() => {
-    const onKey = (e: KeyboardEvent) => e.key === "Escape" && setOpen(false);
+    const onKey = (e) => e.key === "Escape" && setOpen(false);
     document.addEventListener("keydown", onKey);
     document.body.style.overflow = open ? "hidden" : "";
     return () => {

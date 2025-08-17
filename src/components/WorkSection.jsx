@@ -14,7 +14,7 @@ export default function WorkSection() {
     <section id="work" className="py-16" style={{background: `linear-gradient(180deg, ${BRAND.colors.bg}, #ffffff)`}}>
       <Container>
         <div className="mb-8 flex items-center justify-between">
-          <h2 className="text-2xl md:text-3xl font-bold">Pensé pour ton bien-être</h2>
+          <h2 className="text-2xl md:text-3xl font-bold">Pensé pour votre bien-être</h2>
           <div className="hidden md:flex items-center gap-2 text-sm text-black/70"><Heart className="h-4 w-4"/>Prendre soin de soi</div>
         </div>
         <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-5">

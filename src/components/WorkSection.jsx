@@ -1,6 +1,6 @@
 import Container from "./Container";
 import FeatureCard from "./FeatureCard";
-import { Sparkles, Leaf, Waves, Heart, BadgeCheck, Calendar } from "lucide-react";
+import { Sparkles, Leaf, Waves, Heart, BadgeCheck} from "lucide-react";
 import BRAND from "../constants/brand";
 
 export default function WorkSection() {
@@ -10,7 +10,6 @@ export default function WorkSection() {
     { icon: <Waves className="h-5 w-5" />, title: "Ambiance apaisante", desc: "Espace intimiste, musique douce, respiration guidée." },
     { icon: <BadgeCheck className="h-5 w-5" />, title: "Professionnelle certifiée", desc: "Hygiène rigoureuse, expertise visage & bien-être." },
   ];
-
   return (
     <section id="work" className="py-16" style={{background: `linear-gradient(180deg, ${BRAND.colors.bg}, #ffffff)`}}>
       <Container>
